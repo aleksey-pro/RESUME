@@ -50,8 +50,7 @@ Gallery.prototype.setActivePicture = function(index) {
   this.activePictureImage = new Image();
   this.activePictureImage.src = this.pictures[index];
   this.picturesContainer.appendChild(this.activePictureImage);
-  this.activePictureImage.height = 523;
-  this.activePictureImage.width = 250;
+  this.activePictureImage.width = 360;
 };
 
 //     Обработчики событий
@@ -99,16 +98,6 @@ Array.prototype.forEach.call(links, function(link, index) {
   };
 });
 
-
-
-
-
-
-
-
-
-
-
 // parallax background
 
 $('html').mousemove(function(e){
@@ -127,8 +116,6 @@ $('html').mousemove(function(e){
 		$('#wrapper div').each(function(){
 			var speed = $(this).attr('data-speed');
 			if($(this).attr('data-revert')) speed *= -1;
-			TweenMax.to($(this), 1, {x: (1 - newx*speed), y: (1 - newy*speed)});
-			
-		});
-		
-	});
+			TweenMax.to($(this), 1, {x: (1 - newx*speed), y: (1 - newy*speed)});			
+		});		
+});
