@@ -53,19 +53,15 @@ h1 {
 	width: 1776px;
 	height: 1183px;
 	z-index: 6;
-	/*background-image: url('https://caraujo_pens.surge.sh/images/S6WCriT.jpg');*/
 	background-image: url('img/mainBg.jpg');
 	left: -89px;
 	top: -191px;
 }
 
 .p2 {
-	/*width: 927px;*/
-	/*height: 854px;*/
     width: 865px;
 	height: 1183px;
 	z-index: 8;
-	/*background-image: url('https://caraujo_pens.surge.sh/images/aeffA4C.png');*/
     background-image: url('img/seconddBG.png');
 	left: -43px;
 	top: -129px;
@@ -145,7 +141,6 @@ h1 {
 	padding: .3em;
 	border-radius: 5px;
 	color: #fff;
-	display: inline;
 	list-style: none;
 }
 
@@ -262,8 +257,6 @@ figcaption:hover {
     display: inline-block;
     color: #ffffff;
     transform: translate(0, 50%);
-    /*background-image: url('img/magnifying-glass.svg');*/
-    /*background: url('data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNDUxIDQ1MSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDUxIDQ1MTsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+DQo8Zz4NCgk8cGF0aCBkPSJNNDQ3LjA1LDQyOGwtMTA5LjYtMTA5LjZjMjkuNC0zMy44LDQ3LjItNzcuOSw0Ny4yLTEyNi4xQzM4NC42NSw4Ni4yLDI5OC4zNSwwLDE5Mi4zNSwwQzg2LjI1LDAsMC4wNSw4Ni4zLDAuMDUsMTkyLjMgICBzODYuMywxOTIuMywxOTIuMywxOTIuM2M0OC4yLDAsOTIuMy0xNy44LDEyNi4xLTQ3LjJMNDI4LjA1LDQ0N2MyLjYsMi42LDYuMSw0LDkuNSw0czYuOS0xLjMsOS41LTQgICBDNDUyLjI1LDQ0MS44LDQ1Mi4yNSw0MzMuMiw0NDcuMDUsNDI4eiBNMjYuOTUsMTkyLjNjMC05MS4yLDc0LjItMTY1LjMsMTY1LjMtMTY1LjNjOTEuMiwwLDE2NS4zLDc0LjIsMTY1LjMsMTY1LjMgICBzLTc0LjEsMTY1LjQtMTY1LjMsMTY1LjRDMTAxLjE1LDM1Ny43LDI2Ljk1LDI4My41LDI2Ljk1LDE5Mi4zeiIgZmlsbD0iI0ZGRkZGRiIvPg0KPC9nPg0KPC9zdmc+');*/
 }
 
 .portfolio-wrapper {
