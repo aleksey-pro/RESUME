@@ -1,5 +1,39 @@
 'use strict';
 
+//AJAX
+
+var WORKS_METHOD ={
+  
+  handlerData:function(resJSON){
+    
+    var templateSource   = $("#works-template").html(),
+      
+      template = Handlebars.compile(templateSource),
+      
+      worksHTML = template(resJSON);
+    
+    $('#works-container').html(worksHTML);
+    console.log($("#works-template"))
+  },
+  loadWorksData : function(){
+    
+    $.ajax({
+      url:"http://localhost:63342/RESUME/worksdata.json",
+      method:'get',
+      success:this.handlerData
+    })
+  }
+};
+
+$(document).ready(function(){
+  WORKS_METHOD.loadWorksData();
+});
+
+$( document ).ajaxComplete(function() {
+  $('.readme').eq(0).text('Certificate');
+});
+
+//Gallery
 
 var Gallery = function(sources) {
 
@@ -93,7 +127,7 @@ var gallery = new Gallery(sources);
 // метод show с соответствующим параметром ранее созданному объекту gallery.
 
 Array.prototype.forEach.call(links, function(link, index) {
-  link.onclick = function() {
+    link.onclick = function() {
     gallery.show(index);
   };
 });

@@ -1,0 +1,58 @@
+{
+  "works": [
+    {
+      "path": "img/screenshots/2.JPG",
+      "title": "Личный проект «Код и Магия»",
+      "comment": "ПРОЕКТ ИНТЕНСИВНОГО JAVASCRIPT КУРСА ОТ HTML-Aкадемии",
+      "description": "Репозиторий создан для обучения на интенсивном онлайн-курсе «Базовый JavaScript» от HTML Academy.",
+      "readmeLink": "https://davegahn.github.io/RESUME/img/certificate.JPG",
+      "previewUrl": "http://right-hospital.surge.sh",
+      "codeUrl": "https://github.com/davegahn/code-and-magick"
+    },
+    {
+      "path": "img/screenshots/6.JPG",
+      "title": "webstudio-landing",
+      "comment": "Проект лендинга Веб-студии",
+      "description": "В данном проекте я отрабатываю техники профессиональной WEB-верстки сайтов. Сайт стал отработкой и практикой изучемых технологий. Здесь я описываю примененные техники и приемы...",
+      "readmeLink": "https://github.com/davegahn/webstudio-landing/blob/master/README.md",
+      "previewUrl": "http://wide-eyed-expansion.surge.sh",
+      "codeUrl": "https://github.com/davegahn/webstudio-landing"
+    },
+    {
+      "path": "img/screenshots/3.JPG",
+      "title": "PRESTIGE-FACADE",
+      "comment": "Проект верстки коммерческого сайта для компании \"Престиж-фасад\"",
+      "description": "Данный проект - первый большой многостраничный, адаптивный сайт для коммерческого использования. Ввиду верстки большого числа страниц, хотелось облегчить работу...",
+      "readmeLink": "https://github.com/davegahn/Prestige/blob/master/README.MD",
+      "previewUrl": "http://www.prestigefacade.ru/index.html",
+      "codeUrl": "https://github.com/davegahn/Prestige"
+    },
+    {
+      "path": "img/screenshots/7.jpg",
+      "title": "ВЕРСТКА АДАПТИВНОГО САЙТА",
+      "comment": "VEEAM Availability",
+      "description": "Верстка страницы для задания от компании Veeam. Использован препроцссор LESS, Bootstrap сетка, написан эффект для меню на jQuery",
+      "readmeLink": "https://github.com/davegahn/veemsite/blob/master/Readme.md",
+      "previewUrl": "https://davegahn.github.io/veemsite",
+      "codeUrl": "https://github.com/davegahn/veemsite"
+    },
+    {
+      "path": "img/screenshots/5.JPG",
+      "title": "ВЕРСТКА СТАТИЧНОГО САЙТА",
+      "comment": "BOOT STORE",
+      "description": "Практика HTML верстки. Верстал еще до использования БЭМ в проектах. PSD-макет сайта - из материалов онлайн-школы NETOLOGIA. Практиковал pixel-perfect верстку - максимальное соответствие образцу.",
+      "readmeLink": "https://github.com/davegahn/netologia_tutorial/blob/master/README.MD",
+      "previewUrl": "https://davegahn.github.io/netologia_tutorial",
+      "codeUrl": "https://github.com/davegahn/netologia_tutorial"
+    },
+    {
+      "path": "img/screenshots/1.JPG",
+      "title": "BOOTSTRAP ТЕМА ДЛЯ БЛОГА ПОД WORDPRESS",
+      "comment": "BLOG",
+      "description": "анный проект служил практикой в изучении двух технологий - HTML-фреймворка BOOTSTRAP 3, а также использования BOOTSTRAP темы в WORDPRESS...",
+      "readmeLink": "https://github.com/davegahn/BLOG/blob/master/README.MD",
+      "previewUrl": "https://davegahn.github.io/BLOG",
+      "codeUrl": "https://github.com/davegahn/BLOG"
+    }
+  ]
+}

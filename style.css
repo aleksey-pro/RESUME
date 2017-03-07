@@ -33,7 +33,7 @@ h1 {
 	overflow: hidden;
 	position: absolute;
 	width: 1500px;
-	height: 800px;
+	height: 100vh;
 	z-index: 10;
 	top: 50%;
 	left: 50%;
@@ -75,7 +75,7 @@ h1 {
 	margin-right: .5em;
 }
 
-.heading {
+.content {
 	z-index: 10; 
 	top: 5%;
 	left: 5%;
@@ -142,19 +142,6 @@ h1 {
 	border-radius: 5px;
 	color: #fff;
 	list-style: none;
-}
-
-#cont1 {
-	position: absolute;
-	z-index: 10;
-	bottom: 10%;
-}
-
-#cont2 {
-	position: absolute;
-	z-index: 10;
-	bottom: 5%;
-	color: #fff;
 }
 
 .mobile {
@@ -353,16 +340,25 @@ figcaption:hover {
     cursor: pointer;
 }
 
+.info {
+    position: absolute;
+    left: 10vw;
+    bottom: 1em;
+    z-index: 100;
+    color: #bdb8a6;
+    font-size: .7em;
+}
+
 
 /*----------------mediaQueries------------------------*/
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) and (min-height: 768px) and (max-height: 1024px) {
 
-    .heading, .contacts {
+    .content {
         left: 17%
     }
 
-    .heading {
+    .content {
         width: 30%
     }
 
@@ -382,11 +378,11 @@ figcaption:hover {
 
 @media screen and (min-width: 1281px) and (max-width: 1400px) and (min-height: 1025px) and (max-height: 1050px) {
 
-    .heading, .contacts {
+    .content, .contacts {
         left: 10%
     }
 
-    .heading {
+    .content {
         width: 30%
     }
 
