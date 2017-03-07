@@ -10,15 +10,6 @@
       "codeUrl": "https://github.com/davegahn/code-and-magick"
     },
     {
-      "path": "img/screenshots/6.JPG",
-      "title": "webstudio-landing",
-      "comment": "Проект лендинга Веб-студии",
-      "description": "В данном проекте я отрабатываю техники профессиональной WEB-верстки сайтов. Сайт стал отработкой и практикой изучемых технологий. Здесь я описываю примененные техники и приемы...",
-      "readmeLink": "https://github.com/davegahn/webstudio-landing/blob/master/README.md",
-      "previewUrl": "http://wide-eyed-expansion.surge.sh",
-      "codeUrl": "https://github.com/davegahn/webstudio-landing"
-    },
-    {
       "path": "img/screenshots/3.JPG",
       "title": "PRESTIGE-FACADE",
       "comment": "Проект верстки коммерческого сайта для компании \"Престиж-фасад\"",
@@ -35,6 +26,15 @@
       "readmeLink": "https://github.com/davegahn/veemsite/blob/master/Readme.md",
       "previewUrl": "https://davegahn.github.io/veemsite",
       "codeUrl": "https://github.com/davegahn/veemsite"
+    },
+    {
+      "path": "img/screenshots/6.JPG",
+      "title": "webstudio-landing",
+      "comment": "Проект лендинга Веб-студии",
+      "description": "В данном проекте я отрабатываю техники профессиональной WEB-верстки сайтов. Сайт стал отработкой и практикой изучемых технологий. Здесь я описываю примененные техники и приемы...",
+      "readmeLink": "https://github.com/davegahn/webstudio-landing/blob/master/README.md",
+      "previewUrl": "http://wide-eyed-expansion.surge.sh",
+      "codeUrl": "https://github.com/davegahn/webstudio-landing"
     },
     {
       "path": "img/screenshots/5.JPG",
