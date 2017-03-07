@@ -18,7 +18,7 @@ var WORKS_METHOD ={
   loadWorksData : function(){
     
     $.ajax({
-      url:"http://localhost:63342/RESUME/worksdata.json",
+      url:"https://davegahn.github.io/RESUME/worksdata.json",
       method:'get',
       success:this.handlerData
     })
