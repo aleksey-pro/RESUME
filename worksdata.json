@@ -44,15 +44,6 @@
       "readmeLink": "https://github.com/davegahn/netologia_tutorial/blob/master/README.MD",
       "previewUrl": "https://davegahn.github.io/netologia_tutorial",
       "codeUrl": "https://github.com/davegahn/netologia_tutorial"
-    },
-    {
-      "path": "img/screenshots/1.JPG",
-      "title": "BOOTSTRAP ТЕМА ДЛЯ БЛОГА ПОД WORDPRESS",
-      "comment": "BLOG",
-      "description": "анный проект служил практикой в изучении двух технологий - HTML-фреймворка BOOTSTRAP 3, а также использования BOOTSTRAP темы в WORDPRESS...",
-      "readmeLink": "https://github.com/davegahn/BLOG/blob/master/README.MD",
-      "previewUrl": "https://davegahn.github.io/BLOG",
-      "codeUrl": "https://github.com/davegahn/BLOG"
     }
   ]
 }
