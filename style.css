@@ -135,6 +135,10 @@ h1 {
     left: 5%;
 }
 
+#cont1 {
+    margin-top: 2em;
+}
+
 .contacts li {
 	display: inline;
 	margin-right: 1em;
