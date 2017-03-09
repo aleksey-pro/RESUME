@@ -31,6 +31,34 @@ $(document).ready(function(){
 
 $( document ).ajaxComplete(function() {
   $('.readme').eq(0).text('Certificate');
+  
+  
+  var pictureSection = document.querySelector('.photogallery');
+  var links = pictureSection.querySelectorAll('.photogallery-image');
+  var slides = document.querySelector('.photogallery').querySelectorAll('img');
+  var sources = [];
+  for (var i = 0, l = slides.length; i < l; i++) {
+    sources.push(slides[i].src);
+  }
+// Создайте переменную gallery запишите в нее объект, созданный функцией-конструктором Gallery, параметром конструктора передайте полученный
+// ранее массив фотографий.
+  
+  var gallery = new Gallery(sources);
+//Затем в модуле main.js добавьте ссылкам обработчики клика, которые вызывают
+// метод show с соответствующим параметром ранее созданному объекту gallery.
+
+// Array.prototype.forEach.call(links, function(link, index) {
+//     link.onclick = function() {
+//     gallery.show(index);
+//   };
+// });
+
+  var link = $('.photogallery-image');
+  link.on( "click", function(e) {
+    e.preventDefault();
+    var idx = link.index(this);
+    gallery.show(idx);
+  });
 });
 
 //Gallery
@@ -112,25 +140,7 @@ Gallery.prototype.moveright = function() {
   // не был больше последнего индекса в массиве картинок
 };
 
-var pictureSection = document.querySelector('.photogallery');
-var links = pictureSection.querySelectorAll('.photogallery-image');
-var slides = document.querySelector('.photogallery').querySelectorAll('img');
-var sources = [];
-for (var i = 0, l = slides.length; i < l; i++) {
-  sources.push(slides[i].src);
-}
-// Создайте переменную gallery запишите в нее объект, созданный функцией-конструктором Gallery, параметром конструктора передайте полученный
-// ранее массив фотографий.
 
-var gallery = new Gallery(sources);
-//Затем в модуле main.js добавьте ссылкам обработчики клика, которые вызывают
-// метод show с соответствующим параметром ранее созданному объекту gallery.
-
-Array.prototype.forEach.call(links, function(link, index) {
-    link.onclick = function() {
-    gallery.show(index);
-  };
-});
 
 // parallax background
 
