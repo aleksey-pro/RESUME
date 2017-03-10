@@ -353,6 +353,10 @@ figcaption:hover {
     font-size: .7em;
 }
 
+.info a {
+    color: #bdb8a6;
+    font-size: 1em;
+}
 
 /*----------------mediaQueries------------------------*/
 
