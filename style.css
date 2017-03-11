@@ -346,7 +346,7 @@ figcaption:hover {
 
 .info {
     position: absolute;
-    left: 10vw;
+    left: 5%;
     top: 1em;
     z-index: 100;
     color: #bdb8a6;
