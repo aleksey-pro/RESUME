@@ -24,7 +24,7 @@ h1 {
 	height: 100vh;
 	top: 0;
 	left: 0;
-	background-color: #000;
+	background-color: #fff;
 	overflow: hidden;
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -32,7 +32,7 @@ h1 {
 #wrapper {
 	overflow: hidden;
 	position: absolute;
-	width: 1500px;
+	width: 100vw;
 	height: 100vh;
 	z-index: 10;
 	top: 50%;
@@ -89,7 +89,7 @@ h1 {
 	font-weight: 600;
 	color: red;
 	text-transform: uppercase;
-	font-size: 3em;
+	font-size: 2.7em;
 }
 
 .title-small {
@@ -360,22 +360,35 @@ figcaption:hover {
 
 /*----------------mediaQueries------------------------*/
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) and (min-height: 768px) and (max-height: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /*.content {*/
+        /*left: 17%*/
+    /*}*/
 
     .content {
-        left: 17%
+        width: 40%
     }
 
-    .content {
-        width: 30%
+    .title {
+        font-size: 2em;
     }
+
+    .name {
+        font-size: 2em;
+    }
+
 
     .list li {
-        margin-top: .5em;
+        margin-top: 1em;
+    }
+
+    .contacts li {
+        margin-right: .1em;
     }
 
     .gallery-section {
-        left: 50%
+        left: 48%
     }
 
     .overlay-gallery-close {
@@ -384,25 +397,12 @@ figcaption:hover {
 
 }
 
-@media screen and (min-width: 1281px) and (max-width: 1400px) and (min-height: 1025px) and (max-height: 1050px) {
-
-    .content, .contacts {
-        left: 10%
-    }
-
+@media screen and (min-width: 1025px) and (max-width: 1250px) {
     .content {
-        width: 30%
-    }
-
-    .list li {
-        margin-top: .5em;
+        width: 45%
     }
 
     .gallery-section {
-        left: 57%
-    }
-
-    .overlay-gallery-close {
-        right: 20%;
+        left: 52%
     }
 }
