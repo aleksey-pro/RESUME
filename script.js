@@ -89,6 +89,11 @@ Gallery.prototype.show = function(index) {
   this.closeElement.onclick = function() {
     self.hide();
   };
+//hide убирает фотогалерею по нажатию на фон
+  document.onkeydown = function (e) {
+    if(e.keyCode =='27') self.hide();
+  };
+  
 //перелистывание
   this.leftArrow.onclick = function() {
     self.moveleft();
