@@ -333,9 +333,16 @@ figcaption:hover {
     border: dotted 1px rgba(255, 255, 255, 0.2);
 }
 
+.overlay-gallery-close-esc {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 12px;
+}
+
 .overlay-gallery-close {
     position: absolute;
-    top: 10%;
+    top: 5%;
     right: 15%;
     font-size: 25px;
 }
@@ -348,7 +355,7 @@ figcaption:hover {
     position: absolute;
     left: 5%;
     top: 1em;
-    z-index: 100;
+    z-index: 10;
     color: #bdb8a6;
     font-size: .7em;
 }
@@ -404,5 +411,11 @@ figcaption:hover {
 
     .gallery-section {
         left: 52%
+    }
+}
+
+@media screen and (max-height: 850px) {
+    html {
+        line-height: 1;
     }
 }
