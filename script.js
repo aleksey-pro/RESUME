@@ -15,10 +15,9 @@ var WORKS_METHOD ={
       worksHTML = template(resJSON);
     
     $('#works-container').html(worksHTML);
-    console.log($("#works-template"))
+    // console.log($("#works-template"))
   },
   loadWorksData : function(){
-    
     $.ajax({
       url:"https://davegahn.github.io/RESUME/worksdata.json",
       method:'get',
@@ -31,7 +30,7 @@ var WORKS_METHOD ={
 });
 
 $( document ).ajaxComplete(function() {
-  $('.readme').eq(0).text('Certificate');
+  $('.readme').eq(0).html('<a href="img/certificate.jpg" target="_blank">Certificate</a>');
 
 //Gallery
   
@@ -89,7 +88,10 @@ $( document ).ajaxComplete(function() {
     this.activePictureImage = new Image();
     this.activePictureImage.src = this.pictures[index];
     this.picturesContainer.appendChild(this.activePictureImage);
-    this.activePictureImage.width = 360;
+    if (window.matchMedia("(max-width: 400px)").matches) {
+      console.log(this);
+      this.activePictureImage.width = 150;
+    } else this.activePictureImage.width = 360;
   };
 
 //     Обработчики событий
@@ -136,27 +138,5 @@ $( document ).ajaxComplete(function() {
     var idx = link.index(this);
     gallery.show(idx);
   });
-  
-  
-});
-// parallax background
-
-$('html').mousemove(function(e){
-		
-		var wx = $(window).width();
-		var wy = $(window).height();
-		
-		var x = e.pageX - this.offsetLeft;
-		var y = e.pageY - this.offsetTop;
-		
-		var newx = x - wx/2;
-		var newy = y - wy/2;
-		
-		$('#loc').text(newx + ", " + newy);
-		
-		$('#wrapper div').each(function(){
-			var speed = $(this).attr('data-speed');
-			if($(this).attr('data-revert')) speed *= -1;
-			TweenMax.to($(this), 1, {x: (1 - newx*speed), y: (1 - newy*speed)});			
-		});		
+    
 });
