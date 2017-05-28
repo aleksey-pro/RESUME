@@ -24,6 +24,7 @@ p, li, a, h2, h3, h4{
     font-weight: normal;
 }
 
+
 p {
     color: #333333;
 }
@@ -124,27 +125,26 @@ a {
     font-family: 'Ubuntu', sans-serif;
     font-weight: normal;
     line-height: 1.5em;
-    width: 80%;
-    margin-left: 20%;
     text-align: justify;
     background-color: #16a085;
     padding: .2em .7em;
     color: #333333;
-    margin-right: -10px;
+    margin-left: -10px;
  }
 
 /* contacts */
 
-.contacts {
+.contacts__list{
     padding-left: 0;
     left: 5%;
+    text-align: center;
 }
 
 #contacts--upper {
     margin-top: 2em;
 }
 
-.contacts li {
+.contacts__item {
     display: inline-block;
     margin-right: 1em;
     margin-bottom: .3em;
@@ -297,6 +297,18 @@ figcaption:hover {
     float: left;
 }
 
+.scroll-up {
+    display: none;
+    height: 30px;
+    width: 40px;
+    background: rgba(158, 158, 158, 0.5);
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+
+
 
 /*popup gallery*/
 
@@ -350,14 +362,14 @@ figcaption:hover {
     position: absolute;
     top: 5%;
     left: 10%;
-    font-size: 12px;
+    font-size: 0.7em;
 }
 
 .overlay-gallery-close {
     position: absolute;
     top: 5%;
     right: 15%;
-    font-size: 25px;
+    font-size: 1.7em;
 }
 
 .overlay-gallery-close:hover {
