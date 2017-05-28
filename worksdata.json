@@ -1,6 +1,15 @@
 {
   "works": [
     {
+      "path": "img/screenshots/8.JPG",
+      "title": "Личный проект «Сайт-портфолио»",
+      "comment": "Проект сайта-портфолио, созданный в рамках обучения на продвинутом курсе по веб-разработке",
+      "description": "На этом курсе вы погрузитесь в серверный Javascript: Node.js, Express.js, MongoDB; освоите лучшие практики автоматизации и прокачки workflow: Gulp, Sass, Pug; окунётесь в мир svg, анимаций и параллакс-эффектов.<br>Описание курса - <a href='https://loftschool.com/course/web-development' />",
+      "readmeLink": "https://github.com/davegahn/portfolio/blob/process/README.md",
+      "previewUrl": "http://obeisant-pollution.surge.sh",
+      "codeUrl": "https://github.com/davegahn/portfolio"
+    },
+    {
       "path": "img/screenshots/2.JPG",
       "title": "Личный проект «Код и Магия»",
       "comment": "ПРОЕКТ ИНТЕНСИВНОГО JAVASCRIPT КУРСА ОТ HTML-Aкадемии",
@@ -35,15 +44,6 @@
       "readmeLink": "https://github.com/davegahn/webstudio-landing/blob/master/README.md",
       "previewUrl": "http://plain-beast.surge.sh",
       "codeUrl": "https://github.com/davegahn/webstudio-landing"
-    },
-    {
-      "path": "img/screenshots/5.JPG",
-      "title": "ВЕРСТКА СТАТИЧНОГО САЙТА",
-      "comment": "BOOT STORE",
-      "description": "PSD-макет сайта - из материалов онлайн-школы NETOLOGIA. Практика pixel-perfect верстки - максимальное соответствие образцу.",
-      "readmeLink": "https://github.com/davegahn/netologia_tutorial/blob/master/README.MD",
-      "previewUrl": "https://davegahn.github.io/netologia_tutorial",
-      "codeUrl": "https://github.com/davegahn/netologia_tutorial"
     }
   ]
 }
