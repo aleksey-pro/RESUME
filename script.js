@@ -29,7 +29,7 @@ var WORKS_METHOD ={
 });
 
 $( document ).ajaxComplete(function() {
-  $('.readme').eq(0).html('<a href="img/certificate.jpg" target="_blank">Certificate</a>');
+  $('.readme').eq(1).html('<a href="img/certificate.jpg" target="_blank">Certificate</a>');
   
   $('.scroll-up').on('click', function(e) {
     e.preventDefault();
