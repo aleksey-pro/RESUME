@@ -4,9 +4,9 @@
       "path": "img/screenshots/8.JPG",
       "title": "Личный проект «Сайт-портфолио»",
       "comment": "Проект сайта-портфолио, созданный в рамках обучения на продвинутом курсе по веб-разработке",
-      "description": "На этом курсе вы погрузитесь в серверный Javascript: Node.js, Express.js, MongoDB; освоите лучшие практики автоматизации и прокачки workflow: Gulp, Sass, Pug; окунётесь в мир svg, анимаций и параллакс-эффектов.<br><a href='https://loftschool.com/course/web-development' target='blank'>Описание курса</a>",
+      "description": "На этом курсе вы погрузитесь в серверный Javascript: Node.js, Express.js, MongoDB; освоите лучшие практики автоматизации и прокачки workflow: Gulp, Sass, Pug; окунётесь в мир svg, анимаций и параллакс-эффектов.<br><ul><li><a href='https://loftschool.com/course/web-development' target='blank'>Описание курса</a></li><li><a href='loft-cert.pdf' target='blank'>Диплом</a></li>",
       "readmeLink": "https://github.com/davegahn/portfolio/blob/process/README.md",
-      "previewUrl": "http://obeisant-pollution.surge.sh",
+      "previewUrl": "http://portfolio.aleksey-isaev.site/",
       "codeUrl": "https://github.com/davegahn/portfolio"
     },
     {
@@ -15,21 +15,21 @@
       "comment": "ПРОЕКТ ИНТЕНСИВНОГО JAVASCRIPT КУРСА ОТ HTML-Aкадемии",
       "description": "Репозиторий создан для обучения на интенсивном онлайн-курсе «Базовый JavaScript» от HTML Academy.",
       "readmeLink": "https://davegahn.github.io/RESUME/img/certificate.jpg",
-      "previewUrl": "http://right-hospital.surge.sh",
+      "previewUrl": "http://code-and-magick.aleksey-isaev.site",
       "codeUrl": "https://github.com/davegahn/code-and-magick"
     },
     {
       "path": "img/screenshots/3.JPG",
       "title": "PRESTIGE-FACADE",
       "comment": "Проект верстки коммерческого сайта для компании \"Престиж-фасад\"",
-      "description": "Данный проект - многостраничный, адаптивный сайт для коммерческого использования. Ввиду верстки большого числа страниц, хотелось облегчить работу...",
+      "description": "Данный проект - многостраничный, адаптивный сайт для коммерческого использования.",
       "readmeLink": "https://github.com/davegahn/Prestige/blob/master/README.MD",
       "previewUrl": "http://www.prestigefacade.ru/index.html",
       "codeUrl": "https://github.com/davegahn/Prestige"
     },
     {
       "path": "img/screenshots/7.jpg",
-      "title": "ВЕРСТКА АДАПТИВНОГО САЙТА",
+      "title": "ВЕРСТКА BOOTSTRAP САЙТА",
       "comment": "VEEAM Availability",
       "description": "Верстка страницы для задания от компании Veeam. Bootstrap сетка, написан эффект прилипающего меню, мобильного меню.",
       "readmeLink": "https://github.com/davegahn/veemsite/blob/master/Readme.md",

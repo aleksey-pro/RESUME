@@ -14,7 +14,7 @@ var WORKS_METHOD ={
       
       worksHTML = template(resJSON);
     
-    $('#works-container').html(worksHTML);
+    $('#portfolio').html(worksHTML);
   },
   loadWorksData : function(){
     $.ajax({
@@ -107,7 +107,7 @@ $( document ).ajaxComplete(function() {
   };
   
   var pictureSection = document.querySelector('.photogallery');
-  var links = pictureSection.querySelectorAll('.photogallery-image');
+  var links = pictureSection.querySelectorAll('.portfolio__image');
   var slides = document.querySelector('.photogallery').querySelectorAll('img');
   var sources = [];
   for (var i = 0, l = slides.length; i < l; i++) {
@@ -116,7 +116,7 @@ $( document ).ajaxComplete(function() {
   
   var gallery = new Gallery(sources);
   
-  var link = $('.photogallery-image');
+  var link = $('.portfolio__image');
   link.on( "click", function(e) {
     e.preventDefault();
     var idx = link.index(this);

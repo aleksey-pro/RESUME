@@ -2,7 +2,7 @@
     .contacts {
         margin: 0;
     }
-    #contacts--upper, #contacts--lower {
+    #contacts__list--up, #contacts__list--down {
         margin: 0;
     }
 
@@ -56,11 +56,11 @@
         right: 20px !important;
     }
 
-    .portfolio-item {
+    .portfolio__item {
        text-align: right;
     }
 
-    .photogallery-image {
+    .portfolio__image {
         float: left;
     }
 
@@ -77,7 +77,7 @@
         margin: 1em 0;
     }
 
-    .content__list {
+    .content__skills {
         margin-top: 1em;
     }
 
