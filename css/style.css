@@ -21,7 +21,7 @@ body {
 
 p, li, a, h2, h3, h4{
     font-family: 'Ubuntu', sans-serif;
-    font-weight: normal;
+    font-weight: 300;
 }
 
 
@@ -89,7 +89,7 @@ a {
     font-size: 1.1em;
 }
 
-.content__table {
+.content__subtitle {
     text-align: center;
 }
 
@@ -110,20 +110,20 @@ a {
     margin-right: .5em;
 }
 
-.content__list {
+.content__skills {
     list-style-type: circle;
     padding-left: 2em;
     color: #333333;
 }
 
-.content__list li {
-    margin: 0.4em 0;
+.content__skills li {
+    margin: 1em 0;
 }
 
 .content__slogan {
     display: inline-block;
     font-family: 'Ubuntu', sans-serif;
-    font-weight: normal;
+    font-weight: 300;
     line-height: 1.5em;
     text-align: justify;
     background-color: #16a085;
@@ -140,7 +140,7 @@ a {
     text-align: center;
 }
 
-#contacts--upper {
+#contacts__list--up {
     margin-top: 2em;
 }
 
@@ -195,12 +195,12 @@ hr {
     width: 98%;
 }
 
-.photogallery-image{
+.portfolio__image{
     color: #6d6666;
     overflow: hidden;
 }
 
-.portfolio-item {
+.portfolio__item {
     overflow: hidden;
     text-align: center;
 }
