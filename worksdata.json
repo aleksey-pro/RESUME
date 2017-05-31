@@ -6,7 +6,7 @@
       "comment": "Проект сайта-портфолио, созданный в рамках обучения на продвинутом курсе по веб-разработке",
       "description": "На этом курсе вы погрузитесь в серверный Javascript: Node.js, Express.js, MongoDB; освоите лучшие практики автоматизации и прокачки workflow: Gulp, Sass, Pug; окунётесь в мир svg, анимаций и параллакс-эффектов.<br><ul><li><a href='https://loftschool.com/course/web-development' target='blank'>Описание курса</a></li><li><a href='loft-cert.pdf' target='blank'>Диплом</a></li>",
       "readmeLink": "https://github.com/davegahn/portfolio/blob/process/README.md",
-      "previewUrl": "http://portfolio.aleksey-isaev.site/",
+      "previewUrl": "http://portfolio.aleksey-isaev.site",
       "codeUrl": "https://github.com/davegahn/portfolio"
     },
     {
