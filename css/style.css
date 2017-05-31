@@ -262,6 +262,10 @@ figcaption:hover {
     text-align: justify;
 }
 
+.portfolio-wrapper ul {
+    list-style: none;
+}
+
 
 .readme {
     font-size: .7em;
