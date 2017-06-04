@@ -122,5 +122,74 @@ $( document ).ajaxComplete(function() {
     var idx = link.index(this);
     gallery.show(idx);
   });
+  
+  
+  //Meter
+  
+  function meter() {
+    var container = $('.skills'),
+      skillItem = container.find('.skills-list__item');
     
+    function colorize(val){
+      var circleCont = container.find('.skills-meter');
+      circleCont.toggleClass('circle-'+val);
+    }
+    
+    skillItem.on('mouseenter mouseleave', function() {
+      var txt = $(this).text();
+      $(this).toggleClass('hovered');
+      switch (txt) {
+        case 'HTML5':
+          colorize('90');
+        break;
+        case 'CSS':
+          colorize('80');
+        break;
+        case 'CSS3':
+          colorize('50');
+          break;
+        case 'JavaScript':
+          colorize('50');
+          break;
+        case 'jQuery':
+          colorize('60');
+          break;
+        case 'AJAX':
+          colorize('30');
+          break;
+        case 'SASS':
+          colorize('75');
+          break;
+        case 'Bootstrap':
+          colorize('60');
+          break;
+        case 'БЭМ':
+          colorize('80');
+          break;
+        case 'SVG':
+          colorize('70');
+          break;
+        case 'PUG':
+          colorize('80');
+          break;
+        case 'Gulp':
+          colorize('60');
+          break;
+        case 'Git':
+          colorize('60');
+          break;
+        case 'Photoshop':
+          colorize('40');
+          break;
+        case 'WebStorm':
+          colorize('50');
+          break;
+        case 'SEO':
+          colorize('30');
+      }
+    });
+  }
+  
+  meter();
+  
 });
