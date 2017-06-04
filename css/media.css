@@ -41,7 +41,7 @@
         width: 100px;
         height: 100px;
     }
-
+}
 
 @media all and (max-width: 375px) {
     .content {
@@ -75,7 +75,7 @@
     }
 
     .portfolio__item {
-       text-align: right;
+        text-align: right;
     }
 
     .portfolio__image {
@@ -111,9 +111,13 @@
     }
 }
 
+
 @media all and (max-height: 768px) {
     .content__slogan {
         display: none;
     }
 }
+
+
+
 
