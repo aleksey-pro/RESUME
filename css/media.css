@@ -20,25 +20,22 @@
 
 @media all and (max-height: 710px) {
     body {
-        font-size: 2.2vmin;
+        font-size: 3vmin;
     }
 }
 
 @media all and (max-width: 690px) {
     .skills-meter, .skill-circle {
-        width: 150px;
         height: 150px;
     }
 
     .skills-list, .skills-meter {
         margin: 0;
-        padding: 0;
     }
 }
 
 @media all and (max-width: 460px) {
     .skills-meter, .skill-circle {
-        width: 100px;
         height: 100px;
     }
 }
@@ -60,17 +57,17 @@
         right: -600px !important;
     }
 
-    .nav__toggle {
+    .nav-toggle {
         right: 600px !important;
     }
 
-    [id='nav__toggle']:checked ~ .content {
+    [id='nav-toggle']:checked ~ .content {
         -webkit-transform: translateX(-600px);
         -moz-transform: translateX(-600px);
         transform: translateX(-600px);
     }
 
-    [id='nav__toggle']:checked ~ .nav > .nav__toggle {
+    [id='nav-toggle']:checked ~ .nav > .nav-toggle {
         right: 20px !important;
     }
 

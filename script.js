@@ -31,7 +31,7 @@ var WORKS_METHOD ={
 $( document ).ajaxComplete(function() {
   $('.readme').eq(1).html('<a href="img/certificate.jpg" target="_blank">Certificate</a>');
   
-  $('.scroll-up').on('click', function(e) {
+  $('.nav__scroll-up').on('click', function(e) {
     e.preventDefault();
     $('.nav').animate({
       scrollTop: 0
@@ -40,8 +40,8 @@ $( document ).ajaxComplete(function() {
   
   $('.nav').on('scroll', function(){
     if($(this).scrollTop()>700) {
-      $('.scroll-up').fadeIn();
-    } else $('.scroll-up').fadeOut();
+      $('.nav__scroll-up').fadeIn();
+    } else $('.nav__scroll-up').fadeOut();
   });
 
 //Gallery
@@ -131,7 +131,7 @@ $( document ).ajaxComplete(function() {
       skillItem = container.find('.skills-list__item');
     
     function colorize(val){
-      var circleCont = container.find('.skills-meter');
+      var circleCont = $('.skills-meter');
       circleCont.toggleClass('circle-'+val);
     }
     
