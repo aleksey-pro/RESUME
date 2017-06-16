@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/right-nav-style.css">
+    <!-- Yandex.Metrika counter --> <script defer type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter43381384 = new Ya.Metrika({ id:43381384, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/43381384" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
     <script src="https://use.fontawesome.com/0877c10593.js"></script>
 
     <!--[if lt IE 9]>
@@ -30,74 +31,54 @@
 <body>
 <div class="wrapper">
     <div class="container">
-        <input type="checkbox" id="nav__toggle" hidden>
+        <input type="checkbox" id="nav-toggle" hidden>
         <nav class="nav photogallery">
-            <label for="nav__toggle" class="nav__toggle" onclick></label>
+            <label for="nav-toggle" class="nav-toggle" onclick></label>
             <h2 class="nav__title"><i class="fa fa-briefcase fa-lg" aria-hidden="true" ></i>&nbsp;portfolio</h2>
             <hr>
             <div id="portfolio"></div>
-            <a href='#' class="scroll-up"><i class="fa fa-angle-double-up fa-2x"></i></a>
+            <a href='#' class="nav__scroll-up"><i class="fa fa-angle-double-up fa-2x"></i></a>
         </nav>
         <main class="content">
-                <p class="content__name">Исаев Алексей<br>Витальевич</p>
-                <table class="content__subtitle">
-                    <tr>
-                        <td class="title-small"><i class="fa fa-html5 fa-lg" aria-hidden="true"></i>&nbsp;HTML-верстка</td>
-                        <td class="title-small"><i class="fa fa-code fa-lg" aria-hidden="true"></i>&nbsp;FRONT-END</td>
-                    </tr>
-                </table>
-                <h1 class="content__title">Профиль</h1>
-                <div class="skills">
-                    <ul class="skills-list">
-                        <li class="skills-list__item">HTML5</li>
-                        <li class="skills-list__item">CSS</li>
-                        <li class="skills-list__item">CSS3</li>
-                        <li class="skills-list__item">JavaScript</li>
-                        <li class="skills-list__item">jQuery</li>
-                        <li class="skills-list__item">AJAX</li>
-                    </ul>
-                    <ul class="skills-list">
-                        <li class="skills-list__item">SASS</li>
-                        <li class="skills-list__item">Bootstrap</li>
-                        <li class="skills-list__item">БЭМ</li>
-                        <li class="skills-list__item">SVG</li>
-                        <li class="skills-list__item">PUG</li>
-                    </ul>
-                    <ul class="skills-list">
-                        <li class="skills-list__item">Gulp</li>
-                        <li class="skills-list__item">Git</li>
-                        <li class="skills-list__item">Photoshop</li>
-                        <li class="skills-list__item">WebStorm</li>
-                        <li class="skills-list__item">SEO</li>
-                    </ul>
-                    <div class="skills-meter">
-                        <!--<p class="content__text"><strong>skills meter</strong></p>-->
-                        <svg class="skill-circle" viewBox="0 0 110 110">
-                            <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
-                            <circle class="circle__second" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
-                        </svg>
-                        <div class="skill-tip">&laquo; Наведите курсор над названием</div>
-                    </div>
-                </div>
-                <p class="content__text"><i>Английский - Upper-Intermediate, разговорный</i></p>
-                <p class="content__text"><i>Образование высшее экономическое, г.Санкт-Петербург</i></p>
-                <div class="content__slogan">Я всегда стремился понять изнутри, как работает та или иная система. Безудержное любопытсво, желание докопаться до сути вещей позволяют мне всегда оставаться в процессе познания и изучения. Красота и упорядоченность кода, контроль над сложной системой заставляют с восхищением относиться к процессу програмирования. Сложность притягивает магнитом.</div>
-                <ul class="contacts__list contacts__list--up">
-                    <li class="contacts__item socicon-viber">&nbsp;viber</li>
-                    <li class="contacts__item socicon-whatsapp">&nbsp;WhatsApp</li>
-                    <li class="contacts__item mobile"><i class="fa fa-mobile" aria-hidden="true"></i>mobile</li>
-                    <li class="contacts__item tel">+7-952-232-6240</li>
+            <p class="content__name">Исаев Алексей<br>Витальевич</p>
+            <table class="content__subtitle">
+                <tr>
+                    <td class="title-small"><i class="fa fa-html5 fa-lg" aria-hidden="true"></i>&nbsp;HTML-верстка</td>
+                    <td class="title-small"><i class="fa fa-code fa-lg" aria-hidden="true"></i>&nbsp;FRONT-END</td>
+                </tr>
+            </table>
+            <h1 class="content__title">Навыки</h1>
+            <div class="skills">
+                <ul class="skills-list">
+                    <li class="skills-list__item">HTML5</li>
+                    <li class="skills-list__item">CSS</li>
+                    <li class="skills-list__item">CSS3</li>
+                    <li class="skills-list__item">JavaScript</li>
+                    <li class="skills-list__item">jQuery</li>
+                    <li class="skills-list__item">AJAX</li>
+                    <li class="skills-list__item">SASS</li>
+                    <li class="skills-list__item">Bootstrap</li>
+                    <li class="skills-list__item">БЭМ</li>
+                    <li class="skills-list__item">SVG</li>
+                    <li class="skills-list__item">PUG</li>
+                    <li class="skills-list__item">Gulp</li>
+                    <li class="skills-list__item">Git</li>
+                    <li class="skills-list__item">Photoshop</li>
+                    <li class="skills-list__item">WebStorm</li>
+                    <li class="skills-list__item">SEO</li>
                 </ul>
-                <ul class="contacts__list contacts__list--down">
-                    <li class="contacts__item fa fa-envelope-o" aria-hidden="true">
-                        <a href="mailto:anxieter@yandex.ru"> anxieter@yandex.ru</a></li>
-                    <li class="contacts__item socicon-vkontakte">
-                        <a target="_blank" href="https://vk.com/anxieter">&nbsp;VK</a></li>
-                    <li class="contacts__item socicon-github">
-                        <a target="_blank" href="https://github.com/davegahn">&nbsp;GitHub</a>
-                    </li>
-                </ul>
-            <div class="content_info">Сайт работает на AJAX и Handlebars |<a href="https://github.com/davegahn/RESUME" target="_blank"> CODE</a></div>
+            </div>
+            <div class="skills-meter">
+                <svg class="skill-circle" viewBox="0 0 110 110">
+                    <circle class="circle__first" r="45" cx="50%" cy="50%" fill="none"></circle>
+                    <circle class="circle__second" r="45" cx="50%" cy="50%" transform="rotate(-90 55 55)"></circle>
+                </svg>
+                <div class="skill-tip">&laquo; Наведите курсор над названием</div>
+            </div>
+            <div class="clearfix"></div>
+            <p class="content__text"><i>Английский - Upper-Intermediate, разговорный</i></p>
+            <p class="content__text"><i>Образование высшее экономическое, г.Санкт-Петербург</i></p>
+            <div class="content__slogan">Я всегда стремился понять изнутри, как работает та или иная система. Безудержное любопытсво, желание докопаться до сути вещей позволяют мне всегда оставаться в процессе познания и изучения. Красота и упорядоченность кода, контроль над сложной системой заставляют с восхищением относиться к процессу програмирования. Сложность притягивает магнитом.</div>
         </main>
         <div class="overlay-gallery invisible">
             <span class="overlay-gallery-close-esc">Esc для выхода</span>
@@ -110,6 +91,26 @@
             </div>
         </div>
     </div>
+    <div class="footer">
+        <ul class="contacts__list contacts__list--up">
+            <li class="contacts__item socicon-viber">&nbsp;viber</li>
+            <li class="contacts__item socicon-whatsapp">&nbsp;WhatsApp</li>
+            <li class="contacts__item mobile"><i class="fa fa-mobile" aria-hidden="true"></i>mobile</li>
+            <li class="contacts__item tel">+7-952-232-6240</li>
+        </ul>
+        <ul class="contacts__list contacts__list--down">
+            <li class="contacts__item fa fa-envelope-o" aria-hidden="true">
+                <a href="mailto:anxieter@yandex.ru"> anxieter@yandex.ru</a></li>
+            <li class="contacts__item socicon-vkontakte">
+                <a target="_blank" href="https://vk.com/anxieter">&nbsp;VK</a></li>
+            <li class="contacts__item socicon-github">
+                <a target="_blank" href="https://github.com/davegahn">&nbsp;GitHub</a>
+            </li>
+        </ul>
+        <div class="content_info">Сайт работает на AJAX и Handlebars |<a href="https://github.com/davegahn/RESUME" target="_blank"> CODE</a></div>
+    </div>
+</div>
+
 <script id="works-template" type="text/x-handlebars-template"> <!--http://objgen.com/json/models/g5U0-->
     {{#each works}}
     <article class="portfolio__item">
@@ -139,8 +140,6 @@
 </script>
 <script src="lib/jquery-1.10.2.min.js"></script>
 <script src="lib/handlebars.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
 <script src="script.js"></script>
-<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter43381384 = new Ya.Metrika({ id:43381384, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/43381384" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 </body>
 </html>
