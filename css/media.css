@@ -34,6 +34,28 @@
     }
 }
 
+@media all and (max-width: 690px) and  (orientation: landscape) {
+    .skill-circle {
+        height: 100px;
+    }
+    .skills {
+        width: 80%;
+    }
+    .skills-meter {
+        width: 20%;
+        height: 120px;
+    }
+    .contacts__item {
+        float: left;
+    }
+    .contacts__item:first-child {
+        margin-left: 1em;
+    }
+    .content__text {
+        display: inline;
+    }
+}
+
 @media all and (max-width: 460px) {
     .skills-meter, .skill-circle {
         height: 100px;

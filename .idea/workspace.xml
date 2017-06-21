@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d6a4429-f741-474b-bb45-c62e570160d5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css" afterPath="$PROJECT_DIR$/css/media.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/right-nav-style.css" afterPath="$PROJECT_DIR$/css/right-nav-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worksdata.json" afterPath="$PROJECT_DIR$/worksdata.json" />
     </list>
     <ignored path="RESUME.iws" />
@@ -27,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="-1304">
               <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
               <folding>
                 <element signature="e#2474#2480#0" expanded="true" />
@@ -44,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="media.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="media.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/media.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
               <folding>
                 <element signature="e#0#193#0" expanded="false" />
                 <element signature="e#50#76#0" expanded="false" />
@@ -57,20 +58,22 @@
                 <element signature="e#196#276#0" expanded="false" />
                 <element signature="e#278#359#0" expanded="false" />
                 <element signature="e#361#522#0" expanded="false" />
-                <element signature="e#524#625#0" expanded="false" />
-                <element signature="e#627#767#0" expanded="false" />
-                <element signature="e#814#925#0" expanded="false" />
-                <element signature="e#1026#1163#0" expanded="false" />
-                <element signature="e#1216#1255#0" expanded="false" />
-                <element signature="e#1278#1312#0" expanded="false" />
-                <element signature="e#1336#1364#0" expanded="false" />
-                <element signature="e#1389#1466#0" expanded="false" />
-                <element signature="e#1470#1661#0" expanded="false" />
-                <element signature="e#1527#1557#0" expanded="false" />
-                <element signature="e#1576#1608#0" expanded="false" />
-                <element signature="e#1629#1659#0" expanded="false" />
-                <element signature="e#1664#1758#0" expanded="false" />
-                <element signature="e#1761#1851#0" expanded="false" />
+                <element signature="e#524#916#0" expanded="false" />
+                <element signature="e#918#1019#0" expanded="false" />
+                <element signature="e#1021#1161#0" expanded="false" />
+                <element signature="e#1163#1862#0" expanded="false" />
+                <element signature="e#1208#1319#0" expanded="false" />
+                <element signature="e#1420#1557#0" expanded="false" />
+                <element signature="e#1610#1649#0" expanded="false" />
+                <element signature="e#1672#1706#0" expanded="false" />
+                <element signature="e#1730#1758#0" expanded="false" />
+                <element signature="e#1783#1860#0" expanded="false" />
+                <element signature="e#1864#2055#0" expanded="false" />
+                <element signature="e#1921#1951#0" expanded="false" />
+                <element signature="e#1970#2002#0" expanded="false" />
+                <element signature="e#2023#2053#0" expanded="false" />
+                <element signature="e#2058#2152#0" expanded="false" />
+                <element signature="e#2155#2245#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -79,8 +82,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7310">
-              <caret line="430" column="0" lean-forward="true" selection-start-line="430" selection-start-column="0" selection-end-line="430" selection-end-column="0" />
+            <state relative-caret-position="452">
+              <caret line="508" column="1" lean-forward="true" selection-start-line="508" selection-start-column="1" selection-end-line="508" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="right-nav-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/right-nav-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,21 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="worksdata.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/worksdata.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="99" lean-forward="false" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
+            <state relative-caret-position="375">
+              <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -130,7 +133,6 @@
       <find>red</find>
       <find>photogallery</find>
       <find>contacts</find>
-      <find>content</find>
       <find>content__llist</find>
       <find>font-size</find>
       <find>content__table</find>
@@ -145,9 +147,11 @@
       <find>content__skills</find>
       <find>content__skill</find>
       <find>readme</find>
-      <find>content_info</find>
       <find>nav__toggle</find>
       <find>scroll-up</find>
+      <find>content</find>
+      <find>nav-toggle</find>
+      <find>content_info</find>
     </findStrings>
     <replaceStrings>
       <replace>content</replace>
@@ -178,13 +182,13 @@
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_Node03.zip/Node03/app.js" />
-        <option value="$PROJECT_DIR$/css/right-nav-style.css" />
-        <option value="$PROJECT_DIR$/css/media.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/worksdata.json" />
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/worksdata.json" />
+        <option value="$PROJECT_DIR$/css/right-nav-style.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/media.css" />
       </list>
     </option>
   </component>
@@ -228,6 +232,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="RESUME" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RESUME" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RESUME" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,12 +387,12 @@
       <workItem from="1496599849028" duration="17040000" />
       <workItem from="1496939967838" duration="13000" />
       <workItem from="1497621294831" duration="9754000" />
-      <workItem from="1498048178832" duration="1867000" />
+      <workItem from="1498048178832" duration="3485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176692000" />
+    <option name="totallyTimeSpent" value="178310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="-4" width="1386" height="908" extended-state="0" />
@@ -638,54 +656,35 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Node03.zip/Node03/app.js" />
-    <entry file="file://$PROJECT_DIR$/css/right-nav-style.css">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7310">
-          <caret line="430" column="0" lean-forward="true" selection-start-line="430" selection-start-column="0" selection-end-line="430" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/media.css">
+    <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        <state relative-caret-position="459">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
-            <element signature="e#0#193#0" expanded="false" />
-            <element signature="e#50#76#0" expanded="false" />
-            <element signature="e#124#150#0" expanded="false" />
-            <element signature="e#158#191#0" expanded="false" />
-            <element signature="e#196#276#0" expanded="false" />
-            <element signature="e#278#359#0" expanded="false" />
-            <element signature="e#361#522#0" expanded="false" />
-            <element signature="e#524#625#0" expanded="false" />
-            <element signature="e#627#767#0" expanded="false" />
-            <element signature="e#814#925#0" expanded="false" />
-            <element signature="e#1026#1163#0" expanded="false" />
-            <element signature="e#1216#1255#0" expanded="false" />
-            <element signature="e#1278#1312#0" expanded="false" />
-            <element signature="e#1336#1364#0" expanded="false" />
-            <element signature="e#1389#1466#0" expanded="false" />
-            <element signature="e#1470#1661#0" expanded="false" />
-            <element signature="e#1527#1557#0" expanded="false" />
-            <element signature="e#1576#1608#0" expanded="false" />
-            <element signature="e#1629#1659#0" expanded="false" />
-            <element signature="e#1664#1758#0" expanded="false" />
-            <element signature="e#1761#1851#0" expanded="false" />
+            <element signature="e#3901#4943#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worksdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="-1304">
           <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
           <folding>
             <element signature="e#2474#2480#0" expanded="true" />
@@ -701,29 +700,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worksdata.json">
+    <entry file="file://$PROJECT_DIR$/css/right-nav-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="99" lean-forward="false" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
+        <state relative-caret-position="381">
+          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="452">
+          <caret line="508" column="1" lean-forward="true" selection-start-line="508" selection-start-column="1" selection-end-line="508" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
           <folding>
-            <element signature="e#3901#4943#0" expanded="false" />
+            <element signature="e#0#193#0" expanded="false" />
+            <element signature="e#50#76#0" expanded="false" />
+            <element signature="e#124#150#0" expanded="false" />
+            <element signature="e#158#191#0" expanded="false" />
+            <element signature="e#196#276#0" expanded="false" />
+            <element signature="e#278#359#0" expanded="false" />
+            <element signature="e#361#522#0" expanded="false" />
+            <element signature="e#524#916#0" expanded="false" />
+            <element signature="e#918#1019#0" expanded="false" />
+            <element signature="e#1021#1161#0" expanded="false" />
+            <element signature="e#1163#1862#0" expanded="false" />
+            <element signature="e#1208#1319#0" expanded="false" />
+            <element signature="e#1420#1557#0" expanded="false" />
+            <element signature="e#1610#1649#0" expanded="false" />
+            <element signature="e#1672#1706#0" expanded="false" />
+            <element signature="e#1730#1758#0" expanded="false" />
+            <element signature="e#1783#1860#0" expanded="false" />
+            <element signature="e#1864#2055#0" expanded="false" />
+            <element signature="e#1921#1951#0" expanded="false" />
+            <element signature="e#1970#2002#0" expanded="false" />
+            <element signature="e#2023#2053#0" expanded="false" />
+            <element signature="e#2058#2152#0" expanded="false" />
+            <element signature="e#2155#2245#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>

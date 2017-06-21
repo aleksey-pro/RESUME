@@ -500,6 +500,7 @@ figcaption:hover {
     text-align: center;
     color: #bdb8a6;
     font-size: .7em;
+    clear: both;
 }
 
 .content_info a {
