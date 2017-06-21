@@ -13,9 +13,9 @@
       "path": "img/screenshots/2.JPG",
       "title": "Личный проект «Код и Магия»",
       "comment": "ПРОЕКТ ИНТЕНСИВНОГО JAVASCRIPT КУРСА ОТ HTML-Aкадемии",
-      "description": "СТЕК: троттлинг, делегирование, подгрузка отзывов частями, jsonp, xhr, сортировка и фильтрация данных с сервера, управление состоянием. Deployment на heroku",
+      "description": "СТЕК: Canvas, троттлинг, делегирование, подгрузка отзывов частями, jsonp, xhr, сортировка и фильтрация данных с сервера, управление состоянием. Deployment на heroku",
       "readmeLink": "https://davegahn.github.io/RESUME/img/certificate.jpg",
-      "previewUrl": "https://mighty-eyrie-43615.herokuapp.com/",
+      "previewUrl": "https://mighty-eyrie-43615.herokuapp.com",
       "codeUrl": "https://github.com/davegahn/code-and-magick"
     },
     {
