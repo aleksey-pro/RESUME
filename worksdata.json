@@ -4,10 +4,10 @@
       "path": "img/screenshots/8.JPG",
       "title": "Личный проект «Сайт-портфолио»",
       "comment": "Проект сайта-портфолио с админ частью на Node.js",
-      "description": "СТЕК: Webpack 2.0, Gulp4, Node.js админка (записи в блог, авторизация), PUG, SVG, WebGL, parallax<br><ul><li><a href='https://loftschool.com/course/web-development' target='blank'>Описание курса</a></li><li><a href='loft-cert.pdf' target='blank'>Диплом</a></li></ul>",
+      "description": "Сборка: Webpack 2.0 + Gulp4, Серверная часть: Node.js+Express+MongoDB+heroku. Админка (записи в блог, авторизация), PUG, SVG, WebGL, parallax<br><ul><li><a href='https://loftschool.com/course/web-development' target='blank'>Описание курса</a></li><li><a href='loft-cert.pdf' target='blank'>Диплом</a></li></ul>",
       "readmeLink": "https://github.com/davegahn/portfolio/blob/process/README.md",
-      "previewUrl": "http://portfolio.aleksey-isaev.site",
-      "codeUrl": "https://github.com/davegahn/portfolio"
+      "previewUrl": "https://fierce-wave-25161.herokuapp.com",
+      "codeUrl": "https://github.com/davegahn/portfolio-app"
     },
     {
       "path": "img/screenshots/2.JPG",
