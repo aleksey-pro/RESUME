@@ -1,5 +1,3 @@
-'use strict';
-
 //AJAX
 
 $(document).ready(function(){
@@ -191,5 +189,20 @@ $( document ).ajaxComplete(function() {
   }
   
   meter();
+    
+function swipePanel() {
+ var panel = document.querySelector('.nav');
+
+  var mc = new Hammer(panel);
+
+  mc.on("panright", function(ev) {
+    var $panel = $(panel);
+    var checkbox = $panel.siblings('#nav-toggle');
+    $(checkbox).attr('checked',false);
+  });
+}
   
+swipePanel();
+
+
 });
