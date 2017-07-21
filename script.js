@@ -1,8 +1,10 @@
-//AJAX
+//Выполняем при загруке элементов страницы
 
 $(document).ready(function(){
 
 var WORKS_METHOD ={
+  
+  //Определяем и компилируем шаблон
   
   handlerData:function(resJSON){
     
@@ -14,6 +16,9 @@ var WORKS_METHOD ={
     
     $('#portfolio').html(worksHTML);
   },
+  
+  // Подгружаем данные в шаблон
+  
   loadWorksData : function(){
     $.ajax({
       url:"https://davegahn.github.io/RESUME/worksdata.json",
@@ -23,8 +28,12 @@ var WORKS_METHOD ={
   }
 };
 
+ // Запускаем метод
+
   WORKS_METHOD.loadWorksData();
 });
+
+// При загрузке данных вызываем эффекты прокрутки списка работ к верху и появления кнопки прокрутки
 
 $( document ).ajaxComplete(function() {
   $('.readme').eq(1).html('<a href="img/certificate.jpg" target="_blank">Certificate</a>');
@@ -42,7 +51,7 @@ $( document ).ajaxComplete(function() {
     } else $('.nav__scroll-up').fadeOut();
   });
 
-//Gallery
+//Конструктор галереи  -определяем свойства и методы
   
  var Gallery = function(sources) {
     this.galleryContainer = document.querySelector('.overlay-gallery');
@@ -107,12 +116,18 @@ $( document ).ajaxComplete(function() {
   var pictureSection = document.querySelector('.photogallery');
   var links = pictureSection.querySelectorAll('.portfolio__image');
   var slides = document.querySelector('.photogallery').querySelectorAll('img');
+  
+  // Определяем элементы галереи на странице (фотографии)
   var sources = [];
   for (var i = 0, l = slides.length; i < l; i++) {
     sources.push(slides[i].src);
   }
   
+  // Вставляем фотографии в галерею
+  
   var gallery = new Gallery(sources);
+  
+  // Вызывваем показ галереи при клике на фотографии
   
   var link = $('.portfolio__image');
   link.on( "click", function(e) {
@@ -122,8 +137,8 @@ $( document ).ajaxComplete(function() {
   });
   
   
-  //Meter
-  
+  //Функция показа навыков
+
   function meter() {
     var container = $('.skills'),
       skillItem = container.find('.skills-list__item');
@@ -135,14 +150,13 @@ $( document ).ajaxComplete(function() {
     
     skillItem.on('mouseenter mouseleave', function() {
       var txt = $(this).text();
-      $(this).toggleClass('hovered');
       switch (txt) {
         case 'HTML5':
           colorize('90');
-        break;
+          break;
         case 'CSS':
           colorize('80');
-        break;
+          break;
         case 'CSS3':
           colorize('50');
           break;
@@ -185,10 +199,13 @@ $( document ).ajaxComplete(function() {
         case 'SEO':
           colorize('30');
       }
+      $(this).toggleClass('hovered');
     });
   }
   
   meter();
+  
+  //Функция скрытия списка работ свайпом вправо (пальцем)
     
 function swipePanel() {
  var panel = document.querySelector('.nav');
