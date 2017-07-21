@@ -188,7 +188,7 @@ a {
     transition: all 1s;
 }
 
-//-------------------------------
+/*-------------------------------*/
 .circle-0 .skill-circle .circle__second {
   stroke-dasharray: .001 282.6;
 }.circle-10 .skill-circle .circle__second {
