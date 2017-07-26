@@ -2,6 +2,7 @@
 
 $(document).ready(function(){
 
+
 var WORKS_METHOD ={
   
   //Определяем и компилируем шаблон
@@ -37,6 +38,16 @@ var WORKS_METHOD ={
 
 $( document ).ajaxComplete(function() {
   $('.readme').eq(1).html('<a href="img/certificate.jpg" target="_blank">Certificate</a>');
+  
+  
+  $('#nav-toggle').change(function() {
+    if($(this).prop( "checked" )) {
+      $('.container').css('position', 'static');
+    }else {
+      $('.container').css('position', 'relative');
+    }
+  });
+
   
   $('.nav__scroll-up').on('click', function(e) {
     e.preventDefault();

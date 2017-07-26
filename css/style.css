@@ -13,6 +13,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 body {
@@ -34,31 +35,29 @@ a {
     color: #fff;
 }
 
+
 .wrapper {
     width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.container {
+    min-height: 100%;
     max-width: 768px;
     margin: 0 auto;
-    position: relative;
-    width: 100%;
-    min-height: 100%;
-    overflow: hidden;
 
-    margin-bottom: -15vh;
-
-    /*background-color: #6a9e74;*/
+    background-color: #6a9e74;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7cb78c+0,6a9e74+100 */
     background: #7cb78c; /* Old browsers */
     background: -moz-linear-gradient(top,  #7cb78c 0%, #6a9e74 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  #7cb78c 0%,#6a9e74 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  #7cb78c 0%,#6a9e74 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cb78c', endColorstr='#6a9e74',GradientType=0 ); /* IE6-9 */
-
 }
+
+.container {
+    width: 100%;
+    padding-bottom: 15vh;
+    overflow: hidden;
+    position: relative;
+}
+
 
 
 .content {
@@ -245,12 +244,12 @@ a {
 
 .footer {
     height: 15vh;
-    position: relative;
+    margin-top: -15vh;
+    text-align: center;
 }
 
 .contacts__list{
     padding-left: 0;
-    left: 5%;
     text-align: center;
     margin-bottom: 0;
 }
@@ -335,7 +334,6 @@ hr {
     -ms-transform-origin: 0% 0%;
     -moz-transform-origin: 0% 0%;
     -webkit-transform-origin: 0% 0%;
-    /* transition: opacity 0.8s, transform 0.8s; */
     -ms-transition: opacity 0.8s, -ms-transform 0.8s;
     -moz-transition: opacity 0.8s, -moz-transform 0.8s;
     -webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
@@ -500,7 +498,6 @@ figcaption:hover {
     text-align: center;
     color: #bdb8a6;
     font-size: .7em;
-    clear: both;
 }
 
 .content_info a {

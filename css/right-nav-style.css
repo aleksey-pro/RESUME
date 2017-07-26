@@ -83,7 +83,8 @@
 
 
 [id='nav-toggle']:checked ~ .nav > .nav-toggle:after {
-    content: 'X';
+    /*content: 'X';*/
+    content: '\2716';
 }
 
 body {
