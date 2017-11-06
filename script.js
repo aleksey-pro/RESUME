@@ -146,7 +146,23 @@ $( document ).ajaxComplete(function() {
     var idx = link.index(this);
     gallery.show(idx);
   });
-  
+
+  //Create Deployment button
+
+ function createBtn(){
+    var div = document.createElement('div');
+    var link = document.createElement('a');
+    link.href="https://heroku.com/deploy?template=https://github.com/davegahn/110324-code-and-magick";
+    var image = document.createElement('img');
+    image.src = "https://www.herokucdn.com/deploy/button.svg";
+    image.setAttribute('alt', 'Deploy');
+    var div2 = document.querySelectorAll('.readme')[1];
+    div2.parentNode.insertBefore(div, div2);
+    div.appendChild(link);
+    link.appendChild(image);
+  }
+
+  createBtn();
   
   //Функция показа навыков
 
