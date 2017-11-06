@@ -1,2 +1,4 @@
 img/1.psd
 .idea/
+node_modules/
+npm-debug.log
