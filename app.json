@@ -1,0 +1,7 @@
+{
+  "name": "Resume",
+  "description": "Aleksey Isaev CV",
+  "repository": "https://github.com/davegahn/RESUME",
+  "logo": "https://cdn2.iconfinder.com/data/icons/nodejs-1/128/nodejs-128.png",
+  "keywords": ["resume", "handlebars", "isaev"]
+}
